@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas</title>
+    <link rel="shortcut icon" href="img/colcheia.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div class="conteudo">
+        
+            <h1>Playlist por década</h1>
+
+            <div class="bordas">
+                <b>Anos 80's</b>
+            </div>
+            <img class="foto" src="img/samba.jpg" alt="" onclick="toggleAudio('audio1')">
+            <img class="foto dif" src="img/bezerra1.jpeg" alt="" onclick="toggleAudio('audio2')">
+            <img class="foto" src="img/bezerra2.jpg" alt="" onclick="toggleAudio('audio3')">
+            <br>
+
+            <div class="bordas">
+                <b>Anos 90's</b>
+            </div>
+            <img class="foto" src="img/sabota.jpg" alt="" onclick="toggleAudio('audio4')">
+            <img class="foto dif" src="img/racionais.jpg" alt="" onclick="toggleAudio('audio5')">
+            <img class="foto" src="img/509.jpg" alt="" onclick="toggleAudio('audio6')">
+            <br>
+
+            <div class="bordas">
+                <b>Anos 00's</b>
+            </div>
+            <img class="foto" src="img/tribalistas.jpg" alt="" onclick="toggleAudio('audio7')">
+            <img class="foto dif" src="img/anna.jpg" alt="" onclick="toggleAudio('audio8')">
+            <img class="foto" src="img/jorge.jpg" alt="" onclick="toggleAudio('audio9')">
+            <br>
+
+            <audio id="audio1" src="msc/02 Acordo de Malandr.mp3"></audio>
+            <audio id="audio2" src="msc/bezerra da silva malandro é malandro e mané é man�.mp3"></audio>
+            <audio id="audio3" src="msc/Malandragem dá um Temp[1].mp3"></audio>
+            
+            <audio id="audio4" src="msc/Sabotage   Canão Foi Tão Bom (2016.mp3"></audio>
+            <audio id="audio5" src="msc/Racionais   Sobrevivendo no Inferno    Capítulo 4 Versículo.mp3"></audio>
+            <audio id="audio6" src="msc/Oitavo Anj.mp3"></audio>
+
+            <audio id="audio7" src="msc/Velha Infância (2004 Digital Remaster.mp3"></audio>
+            <audio id="audio8" src="msc/Los hermanos   Anna Júli.mp3"></audio>
+            <audio id="audio9" src="msc/Mina do Condomíni.mp3"></audio>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
